@@ -1,0 +1,155 @@
+/*Footer widgets*/ 
+.footer-widget {
+justify-content:center;
+}
+#media_image-4 {
+	margin-left:20%;
+	
+}
+#text-3 {
+	margin-left:50%
+}
+
+#footer-widgets .footer-widget li:before {
+	display:none; 
+}
+.icon {
+	padding-left:1.2vw;
+}
+.et-social-icons {
+float: none;
+left:36%;
+  position: relative;
+	top: -30px;
+
+}
+
+/*Footer widgets*/ 
+
+
+/*Sticky Navigation*/
+#main-header {
+	position:sticky;
+}
+/*Sticky Navigation*/
+
+
+
+/* override top header colour*/
+.et_color_scheme_green #top-header, .et_color_scheme_green .et_pb_counter_amount, .et_color_scheme_green .et_pb_featured_table .et_pb_pricing_heading, .et_color_scheme_green.woocommerce #content input.button, .et_color_scheme_green.woocommerce #content input.button.alt, .et_color_scheme_green.woocommerce #respond input#submit, .et_color_scheme_green.woocommerce #respond input#submit.alt, .et_color_scheme_green .woocommerce-error, .et_color_scheme_green .woocommerce-info, .et_color_scheme_green .woocommerce-message, .et_color_scheme_green.woocommerce-page #content input.button, .et_color_scheme_green.woocommerce-page #content input.button.alt, .et_color_scheme_green.woocommerce-page #respond input#submit, .et_color_scheme_green.woocommerce-page #respond input#submit.alt, .et_color_scheme_green.woocommerce-page a.button, .et_color_scheme_green.woocommerce-page a.button.alt, .et_color_scheme_green.woocommerce-page button.button, .et_color_scheme_green.woocommerce-page button.button.alt, .et_color_scheme_green.woocommerce-page button.button.alt.disabled, .et_color_scheme_green.woocommerce-page input.button, .et_color_scheme_green.woocommerce-page input.button.alt, .et_color_scheme_green.woocommerce a.button, .et_color_scheme_green.woocommerce a.button.alt, .et_color_scheme_green.woocommerce button.button, .et_color_scheme_green.woocommerce button.button.alt, .et_color_scheme_green.woocommerce button.button.alt.disabled, .et_color_scheme_green.woocommerce input.button, .et_color_scheme_green.woocommerce input.button.alt {
+    background: #C0DDBA!important;
+}
+/* override top header colour*/
+
+/* top header-font weight*/
+
+#top-header .container {
+ 
+    font-weight: 400;
+}
+/* top header-font weight*/
+
+/* Main navigation font weight */
+
+#et-top-navigation {
+    font-weight: 400;
+	
+}
+/* Main navigation font weight */
+
+
+/* footer-font size*/
+
+.footer-widget, .footer-widget li, .footer-widget li a, #footer-info {
+    font-size: 14px;
+}
+/* footer-font size*/
+
+/*Mobile menu*/
+
+.mobile_nav closed {
+	display:none; 
+}
+@media (max-width: 980px) {
+	.et_header_style_split #main-header .mobile_nav {
+    text-align: left;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 9px 10px;
+    position: relative;
+    top: -70px;
+}
+	.et_header_style_split #logo {
+    max-height: 90px;
+}
+	.et_header_style_split #main-header {
+    padding: 20px 0;
+    height: 120px;
+}
+	.select_page {
+		visibility:hidden;
+	}
+	.media_image-4{
+		display:none;
+	}
+	#footer-widgets {
+    padding: 8% 0;
+    display: flex;
+		
+} 
+
+	.et-social-icons {
+
+	left:30%;
+		top:-110px;
+}
+	#text-3{
+		display:none;
+	}
+#media_image-4{
+	position:flex;
+		left:60%;
+	}
+}
+
+
+.et_color_scheme_green .et-search-form, .et_color_scheme_green .et_mobile_menu, .et_color_scheme_green .et_pb_pricing li::before, .et_color_scheme_green .footer-widget li::before, .et_color_scheme_green .nav li ul {
+    border-color: #C0DDBA;
+}
+
+.et_color_scheme_green a {
+    color: #BDC7FA;
+}
+
+.um input[type="submit"].um-button:hover, .um a.um-button:hover {
+    background-color: #BDC7FA;
+}
+
+.um input[type="submit"].um-button, .um input[type="submit"].um-button:focus, .um a.um-button, .um a.um-button.um-disabled:hover, .um a.um-button.um-disabled:focus, .um a.um-button.um-disabled:active {
+    background: #C0DDBA;
+        background-color: rgb(192, 221, 186);
+}
+
+.um-field um-field-text  um-field-username um-field-text um-field-type_text {
+	font-weight:400;
+}
+
+
+
+/* Account page */
+
+.um-account-side li a span.um-account-icon i {
+   
+	display: none; }
+.um-account-meta img {
+   
+    display: none;
+}
+
+/* package buttons */
+.press:hover {
+width:110%;
+}
+#sidebar {
+	display:none;
+}
